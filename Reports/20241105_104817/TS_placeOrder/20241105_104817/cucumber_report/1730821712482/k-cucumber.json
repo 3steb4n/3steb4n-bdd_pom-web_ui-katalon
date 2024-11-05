@@ -1,0 +1,103 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "df801973-65b6-4436-92c3-66962eef5d7d",
+        "line": 32,
+        "name": "Successful login with valid information",
+        "description": "",
+        "id": "successful-signup-with-valid-information;successful-login-with-valid-information;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I am on the login page",
+            "match": {},
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7a02d36c-f357-4ecf-b2ed-ccde5cd15de3"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I enter my login credentials for login fx33d3434 and df3434344",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fx33d3434",
+                  "offset": 39
+                },
+                {
+                  "val": "df3434344",
+                  "offset": 53
+                }
+              ],
+              "location": "SuccessfulLoginSteps.fillUserAndPasswordFieldLogin(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "83a15c4c-ae01-4a52-b820-8aebe78c81db"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I submit the login form",
+            "match": {
+              "location": "SuccessfulLoginSteps.clickLoginButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b25640a9-77ad-4e18-a977-d7deadb4ae00"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I should see the fx33d3434 into the Home Page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fx33d3434",
+                  "offset": 17
+                }
+              ],
+              "location": "SuccessfulLoginSteps.validateWelcomeUsernameMessage(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "61e337ed-d32e-4bdf-af35-b58caa91141f"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "Successful signup with valid information",
+    "description": "  I want to registration a new user in the application",
+    "id": "successful-signup-with-valid-information",
+    "keyword": "Feature",
+    "uri": "C:/Users/JuanG/Desktop/bdd_pom-web_ui-katalon/Include/features/auth/SuccessfulLogin.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

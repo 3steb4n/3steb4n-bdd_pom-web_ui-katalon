@@ -1,0 +1,104 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 32,
+        "name": "Successful signup with valid information",
+        "description": "",
+        "id": "successful-signup-with-valid-information;successful-signup-with-valid-information;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 423557000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on the signup page",
+            "match": {
+              "location": "SuccessfulSignupSteps.joinToSignupPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 888211900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter my fx3d4d3434 and df3434344",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fx3d4d3434",
+                  "offset": 11
+                },
+                {
+                  "val": "df3434344",
+                  "offset": 26
+                }
+              ],
+              "location": "SuccessfulSignupSteps.fillUserAndPasswordField(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265911900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I submit the signup form",
+            "match": {
+              "location": "SuccessfulSignupSteps.clickSignupButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 586570000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the follow message: Sign up successful.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign up successful.",
+                  "offset": 33
+                }
+              ],
+              "location": "SuccessfulSignupSteps.validateAlertMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          },
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "Successful signup with valid information",
+    "description": "  I want to registration a new user in the application",
+    "id": "successful-signup-with-valid-information",
+    "keyword": "Feature",
+    "uri": "C:/Users/JuanG/Desktop/bdd_pom-web_ui-katalon/Include/features/auth/SuccessfulSignup.feature",
+    "tags": [
+      {
+        "name": "@Signup",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

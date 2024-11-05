@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="56.061116">
+    <testcase classname="Successful signup with valid information" name="Successful login with valid information" time="56.061116">
+        <system-out><![CDATA[Given I am on the login page................................................passed
+When I enter my login credentials for login fx33d32233d34 and Crv/MF9EVue8eOTWEAjflA==.passed
+And I submit the login form.................................................passed
+Then I should see the fx33d32233d34 into the Home Page......................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_placeOrder,Chrome 130.0.0.0,,,05-11-2024 10:48:26,05-11-2024 10:48:32,5.659s,FAILED
+,,,,,,,
+Test Cases/UserAuth/TC_doSignup_success,Chrome 130.0.0.0,,,05-11-2024 10:48:29,05-11-2024 10:48:32,2.851s,FAILED
+"runFeatureFile(""Include/features/auth/SuccessfulSignup.feature"")",Chrome 130.0.0.0,,,05-11-2024 10:48:29,05-11-2024 10:48:32,2.755s,FAILED
+,,,,,,,
+Test Cases/UserAuth/TC_doLogin_success,Chrome 130.0.0.0,,,05-11-2024 10:48:32,05-11-2024 10:48:32,0.102s,FAILED
+"runFeatureFile(""Include/features/auth/SuccessfulLogin.feature"")",Chrome 130.0.0.0,,,05-11-2024 10:48:32,05-11-2024 10:48:32,0.057s,FAILED

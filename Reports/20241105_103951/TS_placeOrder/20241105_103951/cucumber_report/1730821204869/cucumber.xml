@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.222691">
+    <testcase classname="Successful signup with valid information" name="Successful signup with valid information" time="2.222691">
+        <system-out><![CDATA[Given I am on the signup page...............................................passed
+When I enter my fdfd3d4d3434 and df3434344..................................passed
+And I submit the signup form................................................passed
+Then I should see the follow message: Sign up successful....................passed
+]]></system-out>
+    </testcase>
+</testsuite>

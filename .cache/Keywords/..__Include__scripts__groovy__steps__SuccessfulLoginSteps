@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "BC560FEC7C9680395E85A7BD41ED718F",
+  "keywordClasses": [
+    {
+      "name": "steps.SuccessfulLoginSteps",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

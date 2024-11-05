@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_placeOrder" time="5.465" tests="1" failures="0" errors="0">
+   <testsuite name="TS_placeOrder" tests="1" failures="0" errors="0" time="5.465" skipped="0" timestamp="05-11-2024T10:23:43" hostname="JuanG - DESKTOP-U369KU2" id="Test Suites/TS_placeOrder">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\JuanG\\Desktop\\bdd_pom-web_ui-katalon\\Reports\\20241105_102333\\TS_placeOrder\\20241105_102333"/>
+         <property name="logFiles" value="C:\\Users\\JuanG\\Desktop\\bdd_pom-web_ui-katalon\\Reports\\20241105_102333\\TS_placeOrder\\20241105_102333\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JuanG - DESKTOP-U369KU2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="b4e5f953483cbf9164a02288f0b7ba3d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/UserAuth/TC_doSignup_success" time="2.865" classname="Test Cases/UserAuth/TC_doSignup_success" status="PASSED">
+         <system-out><![CDATA[05-11-2024T10:23:45 - [TEST_CASE][PASSED] - Test Cases/UserAuth/TC_doSignup_success: Test Cases/UserAuth/TC_doSignup_success
+
+05-11-2024T10:23:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+05-11-2024T10:23:45 - [TEST_STEP][PASSED] - GLUE = ["steps"]: null
+
+05-11-2024T10:23:46 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/auth/SuccessfulSignup.feature"): Feature file: 'Include/features/auth/SuccessfulSignup.feature' was passed
+
+05-11-2024T10:23:46 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/auth/SuccessfulSignup.feature' and extract report to folder: 'C:\Users\JuanG\Desktop\bdd_pom-web_ui-katalon\Reports\20241105_102333\TS_placeOrder\20241105_102333/cucumber_report/1730820226054'...
+
+05-11-2024T10:23:46 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Successful signup with valid information: SCENARIO Successful signup with valid information
+
+05-11-2024T10:23:46 - [TEST_STEP][PASSED] - I am on the signup page: I am on the signup page
+
+05-11-2024T10:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/ahrefSignup' is clicked on
+
+05-11-2024T10:23:46 - [MESSAGE][PASSED] - I am on the signup page
+
+05-11-2024T10:23:46 - [TEST_STEP][PASSED] - I enter my fdfd343434 and df3434344: I enter my fdfd343434 and df3434344
+
+05-11-2024T10:23:47 - [MESSAGE][PASSED] - Keys 'fdfd343434' sent to object: 'Object Repository/Signup_Page/inputUsername'
+
+05-11-2024T10:23:47 - [MESSAGE][PASSED] - Keys 'df3434344' sent to object: 'Object Repository/Signup_Page/inputPassword'
+
+05-11-2024T10:23:47 - [MESSAGE][PASSED] - I enter my fdfd343434 and df3434344
+
+05-11-2024T10:23:47 - [TEST_STEP][PASSED] - I submit the signup form: I submit the signup form
+
+05-11-2024T10:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Page/buttonSignup' is clicked on
+
+05-11-2024T10:23:48 - [MESSAGE][PASSED] - I submit the signup form
+
+05-11-2024T10:23:48 - [TEST_STEP][PASSED] - I should see the follow message: Sign up successful.: I should see the follow message: Sign up successful.
+
+05-11-2024T10:23:48 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+05-11-2024T10:23:48 - [MESSAGE][PASSED] - Get alert text successfully: 'Sign up successful.'
+
+05-11-2024T10:23:48 - [MESSAGE][PASSED] - Actual object 'Sign up successful.' and expected object 'Sign up successful.' are equal
+
+05-11-2024T10:23:48 - [MESSAGE][PASSED] - I should see the follow message: Sign up successful.
+
+05-11-2024T10:23:48 - [MESSAGE][PASSED] - Feature file: 'Include/features/auth/SuccessfulSignup.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-11-2024T10:23:43 - [TEST_SUITE][PASSED] - TS_placeOrder: Test Cases/UserAuth/TC_doSignup_success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_placeOrder,Chrome 130.0.0.0,,,05-11-2024 10:12:29,05-11-2024 10:12:33,3.776s,FAILED
+,,,,,,,
+Test Cases/UserAuth/TC_doSignup_success,Chrome 130.0.0.0,,,05-11-2024 10:12:32,05-11-2024 10:12:33,1.115s,FAILED
+Start listener action : sampleBeforeTestSuite,Chrome 130.0.0.0,,,05-11-2024 10:12:32,05-11-2024 10:12:32,0.014s,PASSED
+"runFeatureFile(""Include/features/auth/SuccessfulSignup.feature"")",Chrome 130.0.0.0,,,05-11-2024 10:12:32,05-11-2024 10:12:33,1.006s,FAILED

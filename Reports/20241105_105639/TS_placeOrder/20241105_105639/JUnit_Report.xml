@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_placeOrder" time="6.381" tests="1" failures="0" errors="0">
+   <testsuite name="TS_placeOrder" tests="1" failures="0" errors="0" time="6.381" skipped="0" timestamp="05-11-2024T10:56:49" hostname="JuanG - DESKTOP-U369KU2" id="Test Suites/TS_placeOrder">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\JuanG\\Desktop\\bdd_pom-web_ui-katalon\\Reports\\20241105_105639\\TS_placeOrder\\20241105_105639"/>
+         <property name="logFiles" value="C:\\Users\\JuanG\\Desktop\\bdd_pom-web_ui-katalon\\Reports\\20241105_105639\\TS_placeOrder\\20241105_105639\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JuanG - DESKTOP-U369KU2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5357e57a101e844db4980f449a4e282a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/UserAuth/TC_doLogin_success" time="3.98" classname="Test Cases/UserAuth/TC_doLogin_success" status="PASSED">
+         <system-out><![CDATA[05-11-2024T10:56:51 - [TEST_CASE][PASSED] - Test Cases/UserAuth/TC_doLogin_success: Test Cases/UserAuth/TC_doLogin_success
+
+05-11-2024T10:56:51 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/auth/SuccessfulLogin.feature"): Feature file: 'Include/features/auth/SuccessfulLogin.feature' was passed
+
+05-11-2024T10:56:51 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/auth/SuccessfulLogin.feature' and extract report to folder: 'C:\Users\JuanG\Desktop\bdd_pom-web_ui-katalon\Reports\20241105_105639\TS_placeOrder\20241105_105639/cucumber_report/1730822211611'...
+
+05-11-2024T10:56:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Successful login with valid information: SCENARIO Successful login with valid information
+
+05-11-2024T10:56:52 - [TEST_STEP][PASSED] - I am on the login page: I am on the login page
+
+05-11-2024T10:56:52 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page/ahrefLogin' is visible
+
+05-11-2024T10:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/ahrefLogin' is clicked on
+
+05-11-2024T10:56:52 - [MESSAGE][PASSED] - I am on the login page
+
+05-11-2024T10:56:52 - [TEST_STEP][PASSED] - I enter my login credentials for login fx33d33d34 and df3434344: I enter my login credentials for login fx33d33d34 and df3434344
+
+05-11-2024T10:56:53 - [MESSAGE][PASSED] - Keys 'fx33d33d34' sent to object: 'Object Repository/Login_Page/inputUsername'
+
+05-11-2024T10:56:53 - [MESSAGE][PASSED] - Keys 'df3434344' sent to object: 'Object Repository/Login_Page/inputPassword'
+
+05-11-2024T10:56:53 - [MESSAGE][PASSED] - I enter my login credentials for login fx33d33d34 and df3434344
+
+05-11-2024T10:56:53 - [TEST_STEP][PASSED] - I submit the login form: I submit the login form
+
+05-11-2024T10:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/buttonLogin' is clicked on
+
+05-11-2024T10:56:53 - [MESSAGE][PASSED] - I submit the login form
+
+05-11-2024T10:56:53 - [TEST_STEP][PASSED] - I should see the fx33d33d34 into the Home Page.: I should see the fx33d33d34 into the Home Page.
+
+05-11-2024T10:56:55 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page/titleUsername' is visible
+
+05-11-2024T10:56:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Home_Page/titleUsername' is: 'Welcome fx33d33d34'
+
+05-11-2024T10:56:55 - [MESSAGE][PASSED] - Actual object 'Welcome fx33d33d34' and expected object 'Welcome fx33d33d34' are equal
+
+05-11-2024T10:56:55 - [MESSAGE][PASSED] - I should see the fx33d33d34 into the Home Page.
+
+05-11-2024T10:56:55 - [MESSAGE][PASSED] - Feature file: 'Include/features/auth/SuccessfulLogin.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-11-2024T10:56:49 - [TEST_SUITE][PASSED] - TS_placeOrder: Test Cases/UserAuth/TC_doLogin_success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

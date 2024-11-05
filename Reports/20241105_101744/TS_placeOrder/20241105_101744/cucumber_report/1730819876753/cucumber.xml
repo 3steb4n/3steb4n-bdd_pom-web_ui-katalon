@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.417471">
+    <testcase classname="Successful signup with valid information" name="Successful signup with valid information" time="0.417471">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I am on the signup page...............................................passed
+When I enter my fdfd343434 and df3434344....................................undefined
+And I submit the signup form................................................skipped
+Then I should see the follow message: Sign up successful....................undefined
+]]></failure>
+    </testcase>
+</testsuite>

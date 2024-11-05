@@ -1,0 +1,86 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "79fd4d97-f59f-45b3-9b94-83033cfe99c9",
+        "line": 32,
+        "name": "Successful signup with valid information",
+        "description": "",
+        "id": "successful-signup-with-valid-information;successful-signup-with-valid-information;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 398652800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on the signup page",
+            "match": {
+              "location": "SuccessfulSignupSteps.joinToSignupPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "0c59568f-949d-4a94-bd7e-7e6c60d74950"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I enter my fdfd343434 and df3434344",
+            "match": {},
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d66c0251-f4da-4e39-afd0-24995f89ed4e"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I submit the signup form",
+            "match": {
+              "location": "SuccessfulSignupSteps.clickSignupButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2c9fe66a-7dea-4f4f-970d-1ad027662b7a"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "I should see the follow message: Sign up successful.",
+            "match": {},
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "b862f216-ef07-4e46-adc2-d5f6235b7f30"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          },
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "Successful signup with valid information",
+    "description": "  I want to registration a new user in the application",
+    "id": "successful-signup-with-valid-information",
+    "keyword": "Feature",
+    "uri": "C:/Users/JuanG/Desktop/bdd_pom-web_ui-katalon/Include/features/auth/SuccessfulSignup.feature",
+    "tags": [
+      {
+        "name": "@Signup",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 32,
+        "name": "Successful login with valid information",
+        "description": "",
+        "id": "successful-signup-with-valid-information;successful-login-with-valid-information;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I am on the login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I enter my login credentials for login fx33d3434 and df3434344",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fx33d3434",
+                  "offset": 39
+                },
+                {
+                  "val": "df3434344",
+                  "offset": 53
+                }
+              ],
+              "location": "SuccessfulLoginSteps.fillUserAndPasswordFieldLogin(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I submit the login form",
+            "match": {
+              "location": "SuccessfulLoginSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I should see the fx33d3434 into the Home Page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fx33d3434",
+                  "offset": 17
+                }
+              ],
+              "location": "SuccessfulLoginSteps.validateWelcomeUsernameMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "Successful signup with valid information",
+    "description": "  I want to registration a new user in the application",
+    "id": "successful-signup-with-valid-information",
+    "keyword": "Feature",
+    "uri": "C:/Users/JuanG/Desktop/bdd_pom-web_ui-katalon/Include/features/auth/SuccessfulLogin.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "b9e1047f-734e-4c37-a938-39f51820ec91",
+        "line": 32,
+        "name": "Successful signup with valid information",
+        "description": "",
+        "id": "successful-signup-with-valid-information;successful-signup-with-valid-information;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397391600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on the signup page",
+            "match": {
+              "location": "SuccessfulSignupSteps.joinToSignupPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "12aeba16-b75e-4862-862b-471dd45fbb81"
+          },
+          {
+            "result": {
+              "duration": 847463700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter my fx33d3434 and df3434344",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fx33d3434",
+                  "offset": 11
+                },
+                {
+                  "val": "df3434344",
+                  "offset": 25
+                }
+              ],
+              "location": "SuccessfulSignupSteps.fillUserAndPasswordField(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "c3489df6-d480-4168-86d1-5eb572da54ad"
+          },
+          {
+            "result": {
+              "duration": 267760600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I submit the signup form",
+            "match": {
+              "location": "SuccessfulSignupSteps.clickSignupButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c4cbd0e5-11e6-463b-b712-1c4cf38e3860"
+          },
+          {
+            "result": {
+              "duration": 580822300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the follow message: Sign up successful.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign up successful.",
+                  "offset": 33
+                }
+              ],
+              "location": "SuccessfulSignupSteps.validateAlertMessage(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "b61502d6-67c8-4b60-915f-a6bcd785f7e3"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          },
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "Successful signup with valid information",
+    "description": "  I want to registration a new user in the application",
+    "id": "successful-signup-with-valid-information",
+    "keyword": "Feature",
+    "uri": "C:/Users/JuanG/Desktop/bdd_pom-web_ui-katalon/Include/features/auth/SuccessfulSignup.feature",
+    "tags": [
+      {
+        "name": "@Signup",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
